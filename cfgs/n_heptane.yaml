@@ -1,0 +1,109 @@
+model: './mechs/JetSurf_1_0/JetSurf_1_0.yaml'
+targets:
+  - NC7H16
+  - O2
+retained-species:
+  - N2
+  - AR 
+  - HE
+method: DRGEP
+error: 15.0
+sensitivity-analysis: True
+sensitivity-type: initial
+upper-threshold: 0.4
+autoignition-conditions:
+  - kind: constant volume
+    pressure: 1
+    temperature: 1600.0
+    fuel:
+      NC7H16: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+    end-time : 5.e-5
+    max_steps : 20000
+
+  - kind: constant volume
+    pressure: 1
+    temperature: 1400.0
+    fuel:
+      NC7H16: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+    end-time : 3.e-4
+    max_steps : 20000
+
+  - kind: constant volume
+    pressure: 1
+    temperature: 1200.0
+    fuel:
+      NC7H16: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+    end-time : 4.e-3
+    max_steps : 20000
+
+  - kind: constant volume
+    pressure: 1
+    temperature: 1000.0
+    fuel:
+      NC7H16: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+    end-time : 8.e-2
+    max_steps : 20000
+
+  - kind: constant volume
+    pressure: 30
+    temperature: 1600.0
+    fuel:
+      NC7H16: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+    end-time : 6.e-6
+    max_steps : 20000
+
+  - kind: constant volume
+    pressure: 30
+    temperature: 1400.0
+    fuel:
+      NC7H16: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+    end-time : 3.e-5
+    max_steps : 20000
+
+  - kind: constant volume
+    pressure: 30
+    temperature: 1200.0
+    fuel:
+      NC7H16: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+    end-time : 2.e-4
+    max_steps : 20000
+
+  - kind: constant volume
+    pressure: 30
+    temperature: 1000.0
+    fuel:
+      NC7H16: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+    end-time : 4.e-3
+    max_steps : 20000

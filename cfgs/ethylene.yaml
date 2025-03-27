@@ -1,0 +1,374 @@
+model: './mechs/Aramco_3_0_propene/Aramco_3_0.yaml'
+targets:
+  - C2H4
+  - O2
+retained-species:
+  - N2
+  - AR
+  - HE
+method: DRGEP
+error: 15.0
+sensitivity-analysis: True
+sensitivity-type: initial
+upper-threshold: 0.4
+autoignition-conditions:
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1000.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1000.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1000.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1200.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1200.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1200.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1400.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1400.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1400.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1600.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1600.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 1.0
+    temperature: 1600.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1000.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1000.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1000.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1200.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1200.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1200.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1400.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1400.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1400.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1600.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1600.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 5.0
+    temperature: 1600.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1000.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1000.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1000.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1200.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1200.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1200.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1400.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1400.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1400.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1600.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 0.5
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1600.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.0
+
+  - kind: constant volume
+    pressure: 10.0
+    temperature: 1600.0
+    fuel:
+      C2H4: 1.0
+    oxidizer:
+      O2: 1.0
+      N2: 3.76
+    equivalence-ratio: 1.5
+

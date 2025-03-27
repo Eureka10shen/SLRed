@@ -12,4 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License. 
 
+from .reactors import (
+  FixedStepCVReactor, 
+  FixedStepCVReactor_dr, 
+  VariableStepCVReactor, 
+  CPReactorSim
+)
+from .stio_matrix import stoi_mat
+from .flames import OneDimFlame
 
